@@ -27,7 +27,7 @@ apis:
   tags: Complete
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/complete/master/_listings/amadeus/airports-autocomplete-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/complete/master/_listings/amadeus/rail-stations-autocomplete-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
