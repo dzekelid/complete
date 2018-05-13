@@ -23,17 +23,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
 apis:
-- name: VersaPay View In-Progress & Completed Batches
-  description: View recent in-progress and completed import batches.
+- name: VersaPay View Completed Batches
+  description: View only recent completed import batches.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
   humanURL: http://developers.versapay.com/index.html
   baseURL: https://secure.versapay.com//
   tags: Complete
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/api-imports-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/api-imports-completed-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/api-imports-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/api-imports-completed-get-postman.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/
