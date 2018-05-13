@@ -33,17 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/complete/master/_listings/reddit/subreddit-autocomplete-v2-get.md
-- name: Reddit Get Subreddit Autocomplete
-  description: |-
-    Return a list of subreddits and data for subreddits whose names start
-    with &#39;query&#39;.
+- name: Reddit Get Subreddit Autocomplete V2
+  description: boolean value
   image: http://www.redditstatic.com/about/assets/reddit-logo.png
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com//
   tags: Complete
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/reddit/subreddit-autocomplete-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/reddit/subreddit-autocomplete-v2-get.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
