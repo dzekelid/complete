@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Complete
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/atlassian/api2jqlautocompletedata-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/atlassian/api2jqlautocompletedata-get-openapi.md
+- name: Jira Cloud REST API - Get field auto complete for query string
+  x-api-slug: api2jqlautocompletedatasuggestions-get
+  description: Returns auto complete suggestions for JQL search.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/atlassian/api2jqlautocompletedatasuggestions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/atlassian/api2jqlautocompletedatasuggestions-get-openapi.md
+- name: Jira Cloud REST API - Get field auto complete for query string
+  x-api-slug: api2jqlautocompletedatasuggestions-get
+  description: Returns auto complete suggestions for JQL search.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/atlassian/api2jqlautocompletedatasuggestions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/atlassian/api2jqlautocompletedatasuggestions-get-openapi.md
 - name: Jira Cloud REST API - Get field auto complete for query string
   x-api-slug: api2jqlautocompletedatasuggestions-get
   description: Returns auto complete suggestions for JQL search.

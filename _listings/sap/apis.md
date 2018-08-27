@@ -7,11 +7,53 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-
 x-kinRank: "8"
 x-alexaRank: "1965"
 tags: Complete
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/sap/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Manufacturing Network Customer APIs - Completes a collaboration
+  x-api-slug: collaborationroomscollaborationroomidcomplete-post
+  description: |-
+    Sets a collaboration as completed
+    - The login user must be a collaboration lead for the customer.
+    - If there's already a supplier in the collaboration room, the collaboration must already or still be in process.
+    - If there's already a completed collaboration with the same additive manufacturing supplier, part ID, and customer, this operation fails.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/sap/collaborationroomscollaborationroomidcomplete-post-openapi.md
+- name: Manufacturing Network Customer APIs - Completes a collaboration
+  x-api-slug: collaborationroomscollaborationroomidcomplete-post
+  description: |-
+    Sets a collaboration as completed
+    - The login user must be a collaboration lead for the customer.
+    - If there's already a supplier in the collaboration room, the collaboration must already or still be in process.
+    - If there's already a completed collaboration with the same additive manufacturing supplier, part ID, and customer, this operation fails.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/sap/collaborationroomscollaborationroomidcomplete-post-openapi.md
+- name: Manufacturing Network Customer APIs - Completes a collaboration
+  x-api-slug: collaborationroomscollaborationroomidcomplete-post
+  description: |-
+    Sets a collaboration as completed
+    - The login user must be a collaboration lead for the customer.
+    - If there's already a supplier in the collaboration room, the collaboration must already or still be in process.
+    - If there's already a completed collaboration with the same additive manufacturing supplier, part ID, and customer, this operation fails.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/sap/collaborationroomscollaborationroomidcomplete-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.sap.com/index.html

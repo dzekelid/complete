@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versa
 x-kinRank: "9"
 x-alexaRank: "410909"
 tags: Complete
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
 apis:
@@ -69,6 +69,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apiimportscompleted-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apiimportscompleted-get-openapi.md
+- name: VersaPay API Reference - View Completed Batches
+  x-api-slug: apiimportscompleted-get
+  description: View only recent completed import batches.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apiimportscompleted-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apiimportscompleted-get-openapi.md
+- name: VersaPay API Reference - View In-Progress & Completed Batches
+  x-api-slug: apiimports-get
+  description: View recent in-progress and completed import batches.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apiimports-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/complete/master/_listings/versapay/apiimports-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://venmo.api.gallery.streamdata.io
